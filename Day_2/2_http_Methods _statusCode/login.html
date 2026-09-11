@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+  </head>
+
+  <body>
+    <h2>Login Form</h2>
+
+    <form action="/login" method="POST">
+      <label>Full Name:</label>
+      <input type="text" name="fullName" required />
+
+      <br /><br />
+
+      <label>Email:</label>
+      <input type="email" name="email" required />
+
+      <br /><br />
+
+      <label>Password:</label>
+      <input type="password" name="password" required />
+
+      <br /><br />
+
+      <label>Gender:</label>
+
+      <input type="radio" name="gender" value="Male" />
+      Male
+
+      <input type="radio" name="gender" value="Female" />
+      Female
+
+      <br /><br />
+
+      <label>City:</label>
+
+      <select name="city">
+        <option value="Jagatsinghpur">Jagatsinghpur</option>
+        <option value="Paradeep">Paradeep</option>
+        <option value="NuaGaan">NuaGaan</option>
+        <option value="Kunjakothi">Kunjakothi</option>
+        <option value="Kanaguli">Kanaguli</option>
+      </select>
+
+      <br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
