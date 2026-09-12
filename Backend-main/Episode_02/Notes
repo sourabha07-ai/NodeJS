@@ -1,0 +1,69 @@
+socho tumne naya ghar liya। Khali ghar। Ab har cheez khud banaaoge? Sofa khud banaaoge? Fridge khud banaaoge? AC khud banaaoge?
+
+Nahi na — baazar se ready made laoge। Sofa furniture shop se, fridge electronics shop se।"
+Programming mein yahi NPM hai। Node.js tumhara khali ghar hai। NPM — baazar hai। Doosre developers ke banaye hue packages — ready made furniture hain।"
+Aaj NPM seekhenge — aur professional folder structure bhi। Chalte hain
+
+PART 1 — NPM KYA HAI 
+
+NPM — Node Package Manager। Teen words — teen meanings 
+
+N — Node      → Node.js ke liye
+P — Package   → Ready made code bundles
+M — Manager   → Install, update, remove
+                karna manage karta hai
+
+Matlab — Node.js ke liye ready made code bundles ko manage karne wala tool।
+
+Package — ek bundle hai code ka। Kisi doosre developer ne ek problem solve ki — code likha — NPM pe upload kar diya — ab duniya use kar sakti hai।"
+
+
+"Example — password encrypt karna। Do options
+ <!--password -> 123456  -->
+ <!-- encrypted password -> ASDF234234@#$%@#$% -->
+
+Option 1 — Khud banao:
+Cryptography padho
+Algorithms samjho
+Code likho
+Bugs fix karo
+Test karo
+→ 3 mahine ka kaam
+
+Option 2 — NPM se lo:
+npm install bcrypt
+→ 30 seconds
+
+Yahi NPM ki power hai। Duniya ke developers ne problems solve ki हैं — tumhe dobara solve nahi karni
+
+NPM Registry — baazar
+
+NPM Registry — ek badi online library hai। Abhi — 2 million se zyada packages hain।"
+Jaise Amazon pe lakho products hain — NPM pe lakho packages hain। Tum order karo — tumhare project mein install ho jaata hai।
+
+
+PART 2 — PACKAGE.JSON
+
+Folder analogy
+
+Hospital          →  Backend Project
+
+Reception         →  routes/
+(Kahan jaana hai    (Request kahan
+ batata hai)         jaayegi batata hai)
+
+Doctors           →  controllers/
+(Actual kaam        (Actual logic
+ karte hain)         yahan hoti hai)
+
+Patient Records   →  models/
+(Data store         (Database schema
+ hota hai)           yahan hota hai)
+
+Security Guard    →  middleware/
+(Entry check        (Request verify
+ karta hai)          karta hai)
+
+Control Room      →  config/
+(Sab settings       (Database connection,
+ yahan hain)         env variables)

@@ -1,0 +1,139 @@
+Jab tum Instagram pe photo upload karte ho — woh photo kahan jaati hai?"
+"Jab Zomato pe order karte ho — tumhara order restaurant tak kaise pahunchta hai?"
+"Jab Netflix pe movie play karte ho — woh movie tumhare phone mein thi nahi — toh aayi kahan se?"
+
+"Yeh sab kaam karta hai — Backend ki wajah se। Aur backend banane ke liye — aaj se hum Node.js seekhenge।"
+"Is course ke end mein — tumhare paas ek poora working backend hoga। Server, APIs, Database, Authentication — sab kuch। Chalte hain।"
+
+📚 Is Course Mein:
+
+Phase 1 — Foundation
+  ✅ Server kya hai
+  ✅ Node.js setup
+  ✅ NPM + Packages
+
+Phase 2 — Express + APIs
+  ✅ Express server banana
+  ✅ REST APIs
+  ✅ Postman testing
+
+Phase 3 — Database
+  ✅ MongoDB Atlas
+  ✅ Mongoose Schema
+  ✅ CRUD operations
+
+Phase 4 — Projects
+  ✅ Notes App
+  ✅ Full Stack Project
+
+Phase 5 — Authentication
+  ✅ JWT tokens
+  ✅ Login/Register
+  ✅ Protected routes
+
+Phase 6 — Advanced
+  ✅ Middleware
+  ✅ Testing
+  ✅ Validation
+  
+
+
+PART 2 — WHAT IS A SERVER 
+
+"Bhai — server ka naam suna hai। But actually kya hota hai — aaj clearly samjhte hain।"
+"Ek restaurant imagine karo। Tum jaate ho — baithte ho — waiter ko order dete ho — waiter kitchen mein jaata hai — khana aata hai — tum khate ho।"
+
+"Tum seedha kitchen mein nahi jaate। Waiter ko bolte ho — waiter kitchen tak le jaata hai — kitchen banata hai — waiter wapas laata hai।"
+"Exactly yahi hota hai jab tum google.com type karte ho। Tumhara browser — client hai। Internet — waiter hai। Google ka server — kitchen hai। HTML, CSS, JS — woh khana hai jo wapas aata hai।"
+
+Server actually kya hai — technically ?
+
+"Ab thoda technical baat karte hain।"
+"Server — ek computer hai। But special computer। Jo —"
+
+1. 24/7 chalu rehta hai
+   (Kabhi band nahi hota)
+
+2. Requests sunta rehta hai
+   (Koi bhi aaye — handle kare)
+
+3. Response deta hai
+   (Data wapas bhejta hai)
+
+4. Lakho users handle karta hai
+   (Ek saath)
+
+"Ab ek aur example — aur clear ho jaayega।"
+"Tum phone pe YouTube kholo — 'Node.js tutorial' search karo। Kya hota hai behind the scenes —"
+
+Step 1: Tumne search kiya
+        → Browser ne request banayi
+
+Step 2: Request internet se gayi
+        → YouTube ke server tak
+
+Step 3: YouTube server ne socha
+        → "Node.js tutorials dhundho"
+        → Database se videos nikale
+
+Step 4: Response wapas aaya
+        → Videos, thumbnails, titles
+
+Step 5: Browser ne display kiya
+        → Tumne dekha
+
+
+Ek important baat — server sirf ek computer nahi
+
+"socho। Instagram pe ek second mein crore log photos upload karte hain। Ek computer handle kar sakta hai yeh?"
+
+"Nahi। Isliye badi companies — thousands of servers use karti hain। Ek building mein — hazaron computers — sab connected — sab kaam karte hain ek saath।"
+
+"Lekin concept same hai — client request karta hai — server response deta hai।"
+
+
+PART 3 — NODE.JS KYA HAI
+
+JavaScript jaante ho? Browser mein chalti hai — website interactive banati hai — buttons click hote hain — forms submit hote hain।"
+"But ek problem thi।"
+
+❌ Pehle ka problem:
+
+Frontend  → JavaScript
+Backend   → Java / Python / PHP
+
+Matlab — do alag languages seekhni padti thi
+Ek developer — dono nahi kar sakta tha easily
+
+"2009 mein — Ryan Dahl naam ke ek developer ne socha — 'JavaScript browser ke bahar bhi chal sakti hai kya?'"
+"Usne Node.js banaya। JavaScript ko browser ke bahar nikala — server pe chalaya।"
+
+✅ Node.js ke baad:
+
+Frontend  → JavaScript
+Backend   → JavaScript (Node.js)
+
+Ek language — dono jagah
+Full Stack JavaScript developer!
+
+Node.js internally kaise kaam karta hai?
+
+"ek cheez aur samjho। Node.js — JavaScript engine use karta hai — V8।"
+"V8 — Google ne banaya। Same engine jo Chrome browser mein hai। Node.js ne isko browser se nikala — computer pe directly chalaya।"
+
+Chrome Browser:
+[HTML] [CSS] [JavaScript]
+              ↓
+           [V8 Engine]
+              ↓
+         Screen pe dikhta hai
+
+Node.js:
+[JavaScript Code]
+       ↓
+   [V8 Engine]
+       ↓
+  Computer pe directly chalta hai
+  Files read kar sakta hai
+  Network se baat kar sakta hai
+  Server bana sakta hai
