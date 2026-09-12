@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Simple Form</title>
+  </head>
+  <body>
+    <h2>Student Registration Form</h2>
+
+    <form id="studentForm">
+      <label>Name:</label>
+      <input type="text" id="name" required />
+      <br /><br />
+
+      <label>Email:</label>
+      <input type="email" id="email" required />
+      <br /><br />
+
+      <label>Age:</label>
+      <input type="number" id="age" required />
+      <br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <p id="message"></p>
+
+    <script>
+      const form = document.getElementById("studentForm");
+
+      form.addEventListener("submit", async function (event) {
+        event.preventDefault();
+
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const age = document.getElementById("age").value;
+
+        const studentData = {
+          name: name,
+          email: email,
+          age: age,
+        };
+
+        const response = await fetch("/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(studentData),
+        });
+
+        const result = await response.text();
+
+        document.getElementById("message").innerText = result;
+
+        form.reset();
+      });
+    </script>
+  </body>
+</html>
