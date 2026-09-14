@@ -4,6 +4,7 @@
   },
   "type": "module",
   "scripts": {
-    "server": "node --watch server.js"
+    "server": "node --watch server.js",
+    "dev":"node --watch server2.js"
   }
 }
