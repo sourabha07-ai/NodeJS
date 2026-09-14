@@ -1,10 +1,11 @@
 {
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1"
   },
   "type": "module",
   "scripts": {
     "server": "node --watch server.js",
-    "dev":"node --watch server2.js"
+    "dev": "node --watch server2.js"
   }
 }
