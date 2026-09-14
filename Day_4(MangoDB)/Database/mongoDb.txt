@@ -1,0 +1,7 @@
+ mongodb+srv://sourabhajena2003_db_user:<db_password>@cluster0.5eqeffl.mongodb.net/
+ sourabhajena
+
+ mongodb://atlas-sql-6aa7af5d17258aa1f59650e4-ipocuk.a.query.mongodb.net/College?ssl=true&authSource=admin
+
+import dns from "dns";
+dns.setServers(["1.1.1.1", "8.8.8.8"]);
