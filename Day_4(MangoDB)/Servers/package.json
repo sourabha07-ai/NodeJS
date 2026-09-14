@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "server": "node --watch server.js",
-    "dev": "node --watch server2.js"
+    "dev": "node --watch server2.js",
+    "dev2":"node --watch server_3.js"
   }
 }
