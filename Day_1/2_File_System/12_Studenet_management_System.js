@@ -53,7 +53,7 @@ fs.mkdir("Task_StudentFileManagement", { recursive: true }, (err) => {
                                                 console.log(`is File📂:  ${stats.isFile()}`);
                                                 console.log(`is Directory 📁 ${stats.isDirectory()}`);
 
-                                                //7. Rename file name
+                                                // 7. Rename file name
                                                 fs.rename("Task_StudentFileManagement/Student.txt", 'Task_StudentFileManagement/Sourabha_Student.txt', (err) => {
                                                         if (err) {
                                                                 console.log("Error: ", err);
@@ -68,7 +68,7 @@ fs.mkdir("Task_StudentFileManagement", { recursive: true }, (err) => {
                                                                 }
                                                                 console.log("8.File📂 Delete 📦");
 
-                                                                //9.Delete Folder 
+                                                                // 9.Delete Folder 
                                                                 fs.rmdir("Task_StudentFileManagement", (err) => {
                                                                         if (err) {
                                                                                 console.log("Error: ", err);

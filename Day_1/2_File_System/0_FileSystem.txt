@@ -1,5 +1,1 @@
-Hello Sourabha!!! 
-
-Name: Sourabha
-Course: MCA
-College: ABC University
+Hello Sourabha!!!
