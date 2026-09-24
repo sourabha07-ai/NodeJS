@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-fs.stat('../File_System',(err,stats)=>{
+fs.stat('../2_File_System',(err,stats)=>{
         if(err){
                 console.log("Error: ",err);
                 return;
